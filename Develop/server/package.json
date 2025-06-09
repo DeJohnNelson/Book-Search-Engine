@@ -8,14 +8,14 @@
     "build": "tsc",
     "start": "node dist/server.js",
     "watch": "nodemon dist/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "seed": "node dist/seeds/seed.js",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^4.0.1",
-    "brcypt": "^1.0.1",
     "express": "^4.19.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^8.0.0"
